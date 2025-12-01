@@ -2,5 +2,6 @@ mod puzzles;
 mod tools;
 
 fn main() {
-    puzzles::day1::day1::run();
+    puzzles::day1::part1::run();
+    puzzles::day1::part2::run();
 }

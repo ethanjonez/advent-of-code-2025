@@ -10,8 +10,6 @@ pub fn run() {
     let mut times_at_zero = 0;
 
     for command in &lines {
-        println!("Dial position: {}", dial.position);
-
         dial.rotate(command);
 
         if dial.position == 0 {
