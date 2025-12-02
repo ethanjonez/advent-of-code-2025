@@ -21,7 +21,6 @@ pub fn run() {
 fn calculate_duplicates(min: &str, max: &str) -> i128 {
     let mut duplicates: i128 = 0;
 
-    println!("{}-{}", min, max);
     let minNum = min.parse::<i64>().unwrap();
     let maxNum = max.parse::<i64>().unwrap();
 
@@ -33,7 +32,6 @@ fn calculate_duplicates(min: &str, max: &str) -> i128 {
         }
 
         if iString[0..iString.len()/2] == iString[iString.len()/2..] {
-            println!("{}", iString);
             duplicates += j as i128;
         }
     }
