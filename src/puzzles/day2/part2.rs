@@ -15,7 +15,7 @@ pub fn run() {
         duplicates += calculate_duplicates(range_parts[0], range_parts[1]);
     }
 
-    println!("Duplicates: {}", duplicates);
+    println!("2-2: {}", duplicates);
 }
 
 fn calculate_duplicates(min: &str, max: &str) -> i64 {

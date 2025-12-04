@@ -13,7 +13,7 @@ pub fn run() {
         summedOptimalJoltage += find_optimal_joltage(bank_digits);
     }
 
-    println!("Optimal Joltage: {}", summedOptimalJoltage);
+    println!("3-1: {}", summedOptimalJoltage);
 }
 
 pub fn find_optimal_joltage(bank: Vec<i32>) -> i32 {

@@ -11,7 +11,7 @@ pub fn run() {
         dial.rotate(command);
     }
 
-    println!("Times at zero: {}", dial.times_at_zero);
+    println!("1-2: {}", dial.times_at_zero);
 }
 
 struct Dial {

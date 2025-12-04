@@ -17,7 +17,7 @@ pub fn run() {
         }
     }
 
-    println!("Times at zero: {}", times_at_zero);
+    println!("1-1: {}", times_at_zero);
 }
 
 struct Dial {

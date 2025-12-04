@@ -8,4 +8,6 @@ fn main() {
     puzzles::day2::part2::run();
     puzzles::day3::part1::run();
     puzzles::day3::part2::run();
+    puzzles::day4::part1::run();
+
 }
