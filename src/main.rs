@@ -10,4 +10,6 @@ fn main() {
     puzzles::day3::part2::run();
     puzzles::day4::part1::run();
     puzzles::day4::part2::run();
+    puzzles::day5::part1::run();
+    puzzles::day5::part2::run();
 }
